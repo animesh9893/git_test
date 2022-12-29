@@ -13,9 +13,9 @@
 `vue axios`: https://github.com/imcvampire/vue-axios/blob/master/README.md  
 `vue cookies`: https://github.com/alfhen/vue-cookie  
 
-## DB Schemas
+## DB Schemas  
 
-### otps
+### otps  
 ```                                                              Table "public.otps"
  Column  |         Type          | Collation | Nullable |             Default
 ---------+-----------------------+-----------+----------+----------------------------------
@@ -24,7 +24,7 @@
  email   | character varying(50) |           | not null |
  user_id | integer               |           |          |
 ```
-### Users
+### Users  
 ```
  Column |         Type          | Collation | Nullable |              Default
 --------+-----------------------+-----------+----------+-----------------------------------
@@ -33,7 +33,7 @@
  email  | character varying(50) |           | not null |
  token  | character varying(50) |           |          |
 ```
-### Todos
+### Todos  
 ```
  Column    |         Type          | Collation | Nullable |              Default
 --------+-----------------------+-----------+----------+-----------------------------------
@@ -42,7 +42,7 @@
  message   | character varying(50) |           | not null |
  user_name | character varying(50) |           |          |
 ```
-## API contracts:
+## API contracts  
 ```
 Request:
 curl -X GET \
