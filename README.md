@@ -16,6 +16,7 @@
 ## DB Schemas  
 
 ### otps  
+
 ```                                                              Table "public.otps"
  Column  |         Type          | Collation | Nullable |             Default
 ---------+-----------------------+-----------+----------+----------------------------------
@@ -24,7 +25,9 @@
  email   | character varying(50) |           | not null |
  user_id | integer               |           |          |
 ```
+
 ### Users  
+
 ```
  Column |         Type          | Collation | Nullable |              Default
 --------+-----------------------+-----------+----------+-----------------------------------
@@ -33,7 +36,9 @@
  email  | character varying(50) |           | not null |
  token  | character varying(50) |           |          |
 ```
+
 ### Todos  
+
 ```
  Column    |         Type          | Collation | Nullable |              Default
 --------+-----------------------+-----------+----------+-----------------------------------
@@ -41,9 +46,11 @@
  user_id   | integer               |           | not null |
  message   | character varying(50) |           | not null |
  user_name | character varying(50) |           |          |
+
 ```
 ## API contracts  
 ```
+
 Request:
 curl -X GET \
   http://localhost:4567/user \
