@@ -46,7 +46,7 @@ public class ToDo {
         Statement stmt = null;
         stmt = conn.createStatement();
         System.out.println(this.user);
-        String sql = "Select * from todos where user_id=" + id + ";";
+        String sql = "Select * from todos where id=" + id + ";";
         System.out.println(sql);
         System.out.println("---------------------------------------");
         ResultSet rs = stmt.executeQuery(sql);
