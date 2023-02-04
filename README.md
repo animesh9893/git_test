@@ -20,11 +20,3 @@ iv). Switch the java version on the current shell by setting JAVA_HOME env varia
 ## Backend tech  
 
 Java & dependencies part of build.gradle file  
-
-## API contract  
-
-T.B.W    
-
-## DB schemas   
-
-T.B.W  
