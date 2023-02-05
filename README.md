@@ -1,3 +1,5 @@
+### Setup steps for Mac
+
 ## Setup
 1. Clone the repo: `git clone git@bitbucket.org:tekion/bootcamp-playground.git`
 2. `cd bootcamp-playground`  
